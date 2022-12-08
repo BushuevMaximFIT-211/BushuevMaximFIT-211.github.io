@@ -39427,7 +39427,7 @@ A.adL.prototype={
 $1(a){return A.bx(a)},
 $S:307}
 A.amj.prototype={
-$1(a){var s="https://4c47-89-178-238-142.eu.ngrok.io/",r=new A.k4(s)
+$1(a){var s="https://a8c1-89-178-238-142.eu.ngrok.io/",r=new A.k4(s)
 r.a=A.arT(A.ark(s,null,B.dG))
 return r},
 $S:310}
@@ -39476,22 +39476,21 @@ o=!(a.O(o).f.a.a<600)?a.O(o).f.a.a/2:a.O(o).f.a.a
 s=A.kb(new A.qT(q.w,new A.af3(),new A.af4(),new A.af5(),!0,p,t.QG),1)
 r=A.lK(p,B.BI,p,new A.af6(q),p)
 return A.L_(p,A.k0(A.dT(B.U,A.fV(A.qk(A.a([s,B.c8,A.p3(!0,B.aB,!1,p,A.uJ(),q.x,p,p,p,2,A.lQ(p,$.Vs(),p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!1,p,p,p,p,p,p,p,p,p,p,p,p,r,p,p,p,p),!0,p,!0,p,!1,q.y,p,p,p,p,p,1,p,p,!1,"\u2022",p,p,new A.af7(q),p,p,!1,p,p,B.bB,p,p,p,p,p,p,p,B.aj,p,B.cE,p,p,p)],t.p),B.aD,B.aP),p,o),B.r,p,p,p,p,p,p,p,B.B3,p,p,p),p,p),p,p,p)},
-pK(){var s=0,r=A.a5(t.H),q=this,p,o,n,m,l,k,j
+pK(){var s=0,r=A.a5(t.H),q=this,p,o,n,m,l
 var $async$pK=A.a6(function(a,b){if(a===1)return A.a2(b,r)
-while(true)switch(s){case 0:l=q.x
-k=l.a.a
-j=q.w
-j.push(new A.fM(k,new A.cY(Date.now(),!1),!0))
-q.a9(new A.af1())
-p=t.N
-o=t.z
-s=2
-return A.ae(A.arT(A.ark("https://9f6a-89-178-238-142.eu.ngrok.io/",A.aH(["Content-Type","application/json"],p,o),B.dG)).PU("/webhooks/rest/webhook/",A.aH(["sender","test_user","message",k],p,p),o),$async$pK)
-case 2:n=b
-m=n.d===200?new A.fM(J.b8(t.a.a(J.b8(n.a,0)),"text"),new A.cY(Date.now(),!1),!1):new A.fM("\u0410\u0432\u0442\u043e\u043e\u0442\u0432\u0435\u0447\u0438\u043a: \u044f \u043e\u0442\u0434\u044b\u0445\u0430\u044e \u0438 \u043d\u0435 \u043c\u043e\u0433\u0443 \u0432\u0430\u043c \u043e\u0442\u0432\u0435\u0442\u0438\u0442\u044c",new A.cY(Date.now(),!1),!1)
-l.lu(0,B.x2)
+while(true)switch(s){case 0:n=q.x
+m=n.a.a
+l=q.w
+l.push(new A.fM(m,new A.cY(Date.now(),!1),!0))
+n.lu(0,B.x2)
 q.y.jk()
-j.push(m)
+q.a9(new A.af1())
+n=t.N
+p=t.z
+s=2
+return A.ae(A.arT(A.ark("https://55db-89-178-238-142.eu.ngrok.io/",A.aH(["Content-Type","application/json"],n,p),B.dG)).PU("/webhooks/rest/webhook/",A.aH(["sender","test_user","message",m],n,n),p),$async$pK)
+case 2:o=b
+l.push(o.d===200?new A.fM(J.b8(t.a.a(J.b8(o.a,0)),"text"),new A.cY(Date.now(),!1),!1):new A.fM("\u0410\u0432\u0442\u043e\u043e\u0442\u0432\u0435\u0447\u0438\u043a: \u044f \u043e\u0442\u0434\u044b\u0445\u0430\u044e \u0438 \u043d\u0435 \u043c\u043e\u0433\u0443 \u0432\u0430\u043c \u043e\u0442\u0432\u0435\u0442\u0438\u0442\u044c",new A.cY(Date.now(),!1),!1))
 q.a9(new A.af2())
 return A.a3(null,r)}})
 return A.a4($async$pK,r)}}
